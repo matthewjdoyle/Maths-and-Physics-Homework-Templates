@@ -1,0 +1,1 @@
+ pandoc Homework-Template.md -o Homework-Template.pdf --pdf-engine=weasyprint --metadata title="Homework"

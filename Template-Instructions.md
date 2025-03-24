@@ -1,4 +1,4 @@
-# Physics/Maths Homework Template - User Guide
+# Markdown Homework Template - User Guide
 
 This document provides instructions on how to use this `Homework-Template.md` effectively.
 

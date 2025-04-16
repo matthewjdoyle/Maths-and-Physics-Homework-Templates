@@ -1,0 +1,132 @@
+% LaTeX Homework Template Style File
+% Based on the md-homework-template
+
+\ProvidesPackage{hwtemplate}[2023/08/01 Homework Template Style]
+
+% Required packages
+\RequirePackage{geometry}
+\RequirePackage{setspace}
+\RequirePackage{amsmath,amssymb,amsthm}
+\RequirePackage{xcolor}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{mdframed}
+\RequirePackage{lineno}
+% Font package for Helvetica
+\RequirePackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\RequirePackage[T1]{fontenc}
+
+
+% Define colors based on markdown template
+\definecolor{headerColor}{RGB}{1,73,84}
+\definecolor{titleColor}{RGB}{50,167,139}
+\definecolor{subtitleColor}{RGB}{26,167,92}
+\definecolor{problemBg}{RGB}{33,144,140}
+\definecolor{problemLight}{RGB}{33,144,140}
+\colorlet{problemLight}{problemBg!10}
+\definecolor{solutionBg}{RGB}{59,82,139}
+\colorlet{solutionBg}{solutionBg!17}
+\definecolor{footerColor}{RGB}{199,109,222}
+
+% Page geometry
+\geometry{
+  margin=2cm,
+  vmargin=0.5in,
+  hmargin=0.5in,
+}
+
+% Font settings
+\doublespacing
+
+% Section formatting
+\titleformat{\section}
+  {\color{titleColor}\Large\bfseries}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\color{subtitleColor}\large\bfseries}
+  {\thesubsection}
+  {1em}
+  {}
+
+% Header formatting
+\newcommand{\makeheader}[4]{%
+  \begin{mdframed}[
+    linecolor=headerColor,
+    backgroundcolor=headerColor,
+    fontcolor=white,
+    roundcorner=8pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerrightmargin=10pt,
+    innerleftmargin=10pt
+  ]
+    \textbf{Student:} #1 \newline
+    \textbf{Date:} #2 \newline
+    \textbf{Due Date:} #3 \newline
+    \textbf{Topics:} #4
+  \end{mdframed}
+}
+
+% Problem environment
+\newcounter{problemcounter}
+\setcounter{problemcounter}{0}
+
+\newenvironment{problem}[1]{%
+  \stepcounter{problemcounter}%
+  \begin{mdframed}[
+    linecolor=problemBg!20,
+    backgroundcolor=problemLight,
+    roundcorner=8pt,
+    innertopmargin=15pt,
+    innerbottommargin=15pt,
+    innerrightmargin=15pt,
+    innerleftmargin=15pt
+  ]
+  \subsection*{Problem \theproblemcounter}
+  \textcolor{problemBg}{\textbf{[#1 marks]}}
+  \par
+}{%
+  \end{mdframed}
+}
+
+% Part environment for multi-part problems - with letter and marks
+\renewenvironment{part}[3]{%
+  \smallskip
+  \noindent\textbf{(#1)} #2 \textcolor{problemBg}{\textbf{[#3 marks]}}
+  \par
+}{\medskip}
+
+% Solution environment
+\newenvironment{solution}{%
+  \begin{mdframed}[
+    linecolor=solutionBg!70,
+    backgroundcolor=solutionBg,
+    roundcorner=6pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerrightmargin=10pt,
+    innerleftmargin=10pt
+  ]
+  \vbox to 2.5cm{\vfill}
+  \noindent\textbf{Answer:}
+}{%
+  \end{mdframed}
+}
+
+% Footer
+\newcommand{\makefooter}[1]{%
+  \vspace{1cm}
+  \begin{flushright}
+    \textcolor{footerColor}{\textit{Tutor: #1}}
+  \end{flushright}
+}
+
+% Line numbers
+\linenumbers
+
+% End of package 

@@ -1,7 +1,7 @@
-PWD c:\Users\Matt\Documents\GitHub\md-homework-template\latex-homework-template
+PWD c:\Users\Matt\Documents\GitHub\Maths-and-Physics-Homework-Templates\latex-homework-template
 INPUT C:\Users\Matt\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Matt\Documents\GitHub\md-homework-template\latex-homework-template\main.tex
-OUTPUT main.log
+INPUT c:\Users\Matt\Documents\GitHub\Maths-and-Physics-Homework-Templates\latex-homework-template\Homework 1.tex
+OUTPUT Homework 1.log
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -101,10 +101,10 @@ INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
-OUTPUT main.aux
+INPUT .\Homework 1.aux
+INPUT .\Homework 1.aux
+INPUT Homework 1.aux
+OUTPUT Homework 1.aux
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -157,7 +157,7 @@ INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-OUTPUT main.pdf
+OUTPUT Homework 1.pdf
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Matt\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -176,7 +176,7 @@ INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT main.aux
+INPUT Homework 1.aux
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Matt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

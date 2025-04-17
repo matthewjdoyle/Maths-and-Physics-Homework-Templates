@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.16)  16 APR 2025 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.16)  17 APR 2025 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Matt/Documents/GitHub/md-homework-template/latex-homework-template/main.tex
-(c:/Users/Matt/Documents/GitHub/md-homework-template/latex-homework-template/main.tex
+**"c:/Users/Matt/Documents/GitHub/Maths-and-Physics-Homework-Templates/latex-homework-template/Homework 1.tex"
+(c:/Users/Matt/Documents/GitHub/Maths-and-Physics-Homework-Templates/latex-homework-template/Homework 1.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\Matt\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -356,8 +356,8 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Warning: Unused global option(s):
     [8pt].
 
-(main.aux)
-\openout1 = `main.aux'.
+(Homework 1.aux)
+\openout1 = `"Homework 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -476,22 +476,22 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 21.
 
 
-[2] (main.aux)
+[2] (Homework 1.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6735 strings out of 473523
- 108095 string characters out of 5715114
- 529603 words of memory out of 5000000
- 29842 multiletter control sequences out of 15000+600000
+ 6736 strings out of 473523
+ 108365 string characters out of 5715114
+ 529619 words of memory out of 5000000
+ 29843 multiletter control sequences out of 15000+600000
  590578 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,6n,107p,546b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,6n,107p,570b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (2 pages, 68895 bytes).
+Output written on "Homework 1.pdf" (2 pages, 68895 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
